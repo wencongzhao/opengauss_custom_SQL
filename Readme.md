@@ -12,7 +12,7 @@ opengauss本质是对postgresql套了层皮，如果用opengauss关键字找不�
 
 ------
 
-安装openGauss参考资料：centos7.6编译安装openGauss2.1.0.pdf
+安装openGauss参考资料：[centos7.6编译安装openGauss2.1.0.pdf](https://github.com/wencongzhao/opengauss_custom_SQL/blob/main/reference/centos7.6编译安装openGauss2.1.0.pdf)
 
 自定义SQL需要词法解析和语法解析前置知识，可学习flex&bison；编译的时候使用make -j4可以加快速度。
 
