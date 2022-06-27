@@ -6,7 +6,7 @@ A: 任务要求的话，就是理解opengauss的sql引擎，看一下它从接�
 
 然后不完全借鉴它源码的思路，看看能不能找到其他的实现方法。
 
-资料可以看看这个，作为入门了解https://blog.csdn.net/gaussdb/category_11159303.html。
+资料可以看看这个，作为入门了解https://blog.csdn.net/gaussdb/category_11159303.html
 
 opengauss本质是对postgresql套了层皮，如果用opengauss关键字找不到资料可以换成postgre找一下。
 
