@@ -46,6 +46,6 @@ opengauss本质是对postgresql套了层皮，如果用opengauss关键字找不�
 
 在`src\common\backend\parser\gram.y`文件里面，官方实现了一个`table tableName`的SQL语句。这条语句达到的效果跟`select * from tableName`是一样的。
 
-![image-20211205233139668](C:\Users\WCZ\AppData\Roaming\Typora\typora-user-images\image-20211205233139668.png)
+![image-20211205233139668](https://github.com/wencongzhao/opengauss_custom_SQL/blob/main/reference/image-20211205233139668.png)
 
 这就是所谓的**替换**（或者叫**映射**）的思路。实现自定义的增删查改的SQL语句，不过就是把原来符合标准的SQL语句的语法树，写到自定义SQL语句下的语法分支里。
